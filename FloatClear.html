@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Float and Clear</title>
+    <style>
+        .container
+        {
+            width: 1000px;
+            border: 3px solid purple;
+            margin: auto;
+            background-color: sandybrown;
+            text-align: justify;
+
+        }
+        .item
+        {
+            border: 3px solid gray;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: aquamarine;
+        }
+        #fruit
+        {
+            float: left;
+            width: 48%;
+
+        }
+        #stationary
+        {
+            float: left;
+            width: 48%;
+
+        }
+        #computer
+        {
+            float: left;
+            width: 100%;
+            clear: both;
+
+        }
+        #glasses
+        {
+            width: 100%;
+            clear: both;
+            
+        }
+        p,h3
+        {
+            text-align:justify;
+
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1 style="border: solid; margin: auto;">Welcome to my Store</h1>
+        <div id="fruit" class="item">
+            <h3>Fruits</h3>
+            <p id="fp" class="pc">Lorem ipsum, dolor sit amet consectetur 
+                adipisicing elit. Excepturi atque quisquam commodi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus doloremque aliquam assumenda. Aperiam, explicabo. Sunt quaerat culpa unde sint ipsam fugit ratione exercitationem, consectetur cum!
+                 Omnis, nihil culpa sit magni alias molestiae ratione cum.</p>
+
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p class="sp" class="pc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, facilis reiciendis ducimus vel vero laboriosam nisi expedita quibusdam rem ullam unde doloremque? 
+                Sequi minima, recusandae fuga optio eligendi ratione. Doloribus vero magnam vitae!lorem34 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis nesciunt eum quia magni deserunt voluptates natus nemo. Adipisci excepturi dignissimos voluptas quam, fugiat optio nihil molestiae
+                 explicabo beatae nostrum illo!
+            </p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="cp" class="pc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aliquid architecto asperiores maiores
+                 animi ut cupiditate accusamus unde obcaecati nemo?</p>
+        </div>
+
+        <div id="glasses" class="item">
+            <h3>Glasses</h3>
+            <p id="gp" class="pc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aliquid architecto asperiores maiores
+                 animi ut cupiditate accusamus unde obcaecati nemo?</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
