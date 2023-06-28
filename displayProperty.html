@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property</title>
+    <style>
+        img
+        {
+            width: 100px;
+            display: inline;
+            
+        }
+        h3
+        {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin:auto;
+            text-align: center;
+        }
+        header{
+            margin: auto;
+            border: 2px solid red;
+            width: 30%;
+            display: block;
+        }
+        .box
+        {
+            border: 4px solid black;
+            background-color: gray;
+            padding: 23px;
+            margin: 4px;
+            display: inline-block;
+            width: 30%;
+            box-sizing: border-box;
+        }
+        .container
+        {
+            border: 5px solid blue;
+            margin: auto;
+            padding: 30px;
+        }
+        .container2
+        {
+            border: 5px solid green;
+            padding:10px;
+            margin:15px;
+            background-color:yellow;
+            
+        }
+        .a
+        {
+            display: contents;
+            border: 2px solid brown;
+            padding: 10px;
+            width: 200px;
+            
+            color: maroon;
+        }
+        .top
+        {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="top">
+        
+        <img src="https://yt3.googleusercontent.com/ytc/AGIKgqPmVT6_YQd7RIhhoy9So5Jk9Iqw8pzivKCfLPm_Yg=s176-c-k-c0x00ffffff-no-rj" alt="img">
+        <h3>Welcom to my Blog :-)</h3>
+
+    </header>
+    <div class="container">
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor odio exercitationem tempore, nulla dolores cum hic, harum animi fugiat unde at doloremque. Perferendis cum, accusantium omnis animi veniam 
+                quos repellendus sequi libero. Autem architecto sint voluptatibus? Ad nihil ut aspernatur.</p>
+        </div>
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor odio exercitationem tempore, nulla dolores cum hic, harum animi fugiat unde at doloremque. Perferendis cum, accusantium omnis animi veniam 
+                quos repellendus sequi libero. Autem architecto sint voluptatibus? Ad nihil ut aspernatur.</p>
+        </div>
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor odio exercitationem tempore, nulla dolores cum hic, harum animi fugiat unde at doloremque. Perferendis cum, accusantium omnis animi veniam 
+                quos repellendus sequi libero. Autem architecto sint voluptatibus? Ad nihil ut aspernatur.</p>
+        </div>
+    </div>
+    <div class="container2">
+        <p class="a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, laudantium! Ratione harum dicta ea veritatis, obcaecati accusantium corrupti adipisci 
+            ex, quod error, eaque sit. Accusantium laboriosam quam similique consequuntur ea.</p>
+    </div>
+</body>
+</html>
